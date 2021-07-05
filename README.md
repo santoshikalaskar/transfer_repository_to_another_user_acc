@@ -1,6 +1,5 @@
 # transfer_repository_to_another_user_acc
-
-#!/bin/bash
+#
 ##### Sometimes you need to move your existing git repository
 ##### to a new remote repository (/new remote origin).
 ##### Here are a simple and quick steps that does exactly this.
