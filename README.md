@@ -11,14 +11,20 @@
 ##### Step 1. Make sure you have a local copy of all "old repo"
 ##### branches and tags.
 ##### Fetch all of the remote branches and tags:
+```
 git fetch origin
+```
 
 ##### View all "old repo" local and remote branches:
+```
 git branch -a
+```
 
 ##### If some of the remotes/ branches doesn't have a local copy,
 ##### checkout to create a local copy of the missing ones:
+```
 git checkout -b <branch> origin/<branch>
+```
 
 ##### Now we have to have all remote branches locally.
 
